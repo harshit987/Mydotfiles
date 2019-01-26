@@ -1,2 +1,2 @@
-source  .functions
-source .aliases
+source ~/.dotfiles/.functions
+source ~/.dotfiles/.aliases
