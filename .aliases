@@ -1,0 +1,24 @@
+
+# shorthands
+alias v='vim'
+alias sb='subl'
+alias ifc='ifconfig'
+
+# daily-use commands
+alias rm='rm -rf'
+alias c='cd ~'
+
+
+# git stuff
+alias add='git add --all'
+alias commit='git add --all; git commit -m'
+alias push='git push origin master'
+alias pull='git pull origin master'
+
+
+# clumsy apt-get
+alias install='sudo apt-get install -y'
+alias update='sudo apt-get update'
+alias upgrade='sudo apt-get upgrade'
+
+
