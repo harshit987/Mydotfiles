@@ -1,3 +1,12 @@
 
+#!/bin/bash
 
-alias mkcd='mkcd() { mkdir "$1" && cd "$1"}; mkcd'
+mkcd() {
+ mkdir "$1"
+ cd "$1"
+ }
+
+Xilinx() { 
+cd /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/ 
+./ise 
+}
